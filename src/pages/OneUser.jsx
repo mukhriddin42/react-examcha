@@ -17,7 +17,7 @@ const OneUser = () => {
     return (
         <div className='p-4'>
             <h1 className='text-blue-600 font-bold text-[18px]'>User information</h1>
-            <NavLink to={'/'}>
+            <NavLink to={'/content'}>
                 <p className='hover:text-purple-600 mt-2'>Back to users <span>⬅️</span></p>
             </NavLink>
             <div className='p-4 shadow-main w-[100%] max-w-[400px] text-center my-6 rounded-xl'>

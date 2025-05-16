@@ -21,9 +21,6 @@ const Content = () => {
     }
     return (
         <div className='my-4 p-4'>
-            <NavLink to={'login'}>
-                <p className='border-2 rounded-sm px-4 py-[3px] inline-block my-4 cursor-pointer hover:bg-gray-200'>Login</p>
-            </NavLink>
             <h1 className='text-blue-600 font-bold text-[18px]'>Users</h1>
             <ul>
                 {users.map(user => (
